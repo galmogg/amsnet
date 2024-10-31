@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-from codes.util import util
+from amsnet.codes.util import util
 losses_dict = {
     'l1': nn.L1Loss,
     'l2': nn.MSELoss

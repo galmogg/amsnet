@@ -3,7 +3,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-from codes.util.util import pixel_shuffle_down_sampling, pixel_shuffle_up_sampling, pd_down, pd_up
+from amsnet.codes.util.util import pixel_shuffle_down_sampling, pixel_shuffle_up_sampling, pd_down, pd_up
 import torch
 import torch.nn as nn
 import torch.nn.functional as F

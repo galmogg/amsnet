@@ -2,19 +2,19 @@
 from joblib import PrintTime
 import torch
 import torch.nn as nn
-from codes.util import util
-from codes.model.FeatureMask import MultiScaleMask, StableMask
-from codes.model.SimpleDn import DnBranch
-from codes.model.Restormer import Restormer
-from codes.model.APBSN import DBSNl
-from codes.model.ScaoedNet import SCNet
-from codes.model.DeamNet import Deam
-from codes.model.NAFNet import NAFNet
-from codes.model.NAFNetBase import NAFNetBase
-from codes.model.Unet import UNet
-from codes.model.DNCNN import DnCNN
-from codes.model.NBNet import NBNet
-from codes.model.BNNLNN import UNet as SPUnet
+from amsnet.codes.util import util
+from amsnet.codes.model.FeatureMask import MultiScaleMask, StableMask
+from amsnet.codes.model.SimpleDn import DnBranch
+from amsnet.codes.model.Restormer import Restormer
+from amsnet.codes.model.APBSN import DBSNl
+from amsnet.codes.model.ScaoedNet import SCNet
+from amsnet.codes.model.DeamNet import Deam
+from amsnet.codes.model.NAFNet import NAFNet
+from amsnet.codes.model.NAFNetBase import NAFNetBase
+from amsnet.codes.model.Unet import UNet
+from amsnet.codes.model.DNCNN import DnCNN
+from amsnet.codes.model.NBNet import NBNet
+from amsnet.codes.model.BNNLNN import UNet as SPUnet
 
 
 class MaskEnhance(nn.Module):
