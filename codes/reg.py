@@ -10,6 +10,7 @@ from amsnet.codes.loss.RollLoss import SubRollLoss, SubPatchLoss
 from amsnet.codes.loss.MaskLoss import FirstBranchMaskLoss, PdMaskLoss, FirstPdMaskLoss, MaskLoss, TVLoss
 # from codes.dataset.UnpairDataset import UnpairDataset
 from scripts.UnpairDataset import UnpairDataset
+from scripts.UnpairDataset_test import UnpairDatasetTest
 from amsnet.codes.dataset.SIDD import SIDD_benchmark, SIDD_validation
 import timm
 import torch.nn as nn
